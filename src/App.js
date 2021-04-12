@@ -5,6 +5,8 @@ import {
   Route,
 } from "react-router-dom";
 import Home from './components/Home/Home/Home';
+import Appointment from './components/Appointment/Appointment/Appointment';
+import DashBoard from './components/DashBoard/DashBoard/DashBoard';
 
 function App() {
   return (
@@ -12,6 +14,12 @@ function App() {
       <Switch>
         <Route exact path="/">
           <Home></Home> 
+        </Route>
+        <Route path="/appointment">
+          <Appointment></Appointment>
+        </Route>
+        <Route path="/dashboard/appointment">
+          <DashBoard></DashBoard>
         </Route>
       </Switch>
     </Router>
