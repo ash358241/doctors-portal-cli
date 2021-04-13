@@ -17,7 +17,10 @@ const Navbar = () => {
           <a class="nav-link m-3" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link m-3 text-white" href="#">Dental Services</a> 
+          <a class="nav-link m-3" href="#">Patient</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link m-3 text-white" href="/dashboard/appointment">Dashboard</a> 
         </li>
         <li class="nav-item">
           <a class="nav-link m-3 text-white" href="#">Reviews</a>
